@@ -55,6 +55,8 @@ node 3ds
 
 You computer will (invisibly) start sending data accross the wire to the IP Address you specified in `config.js`. When you wish to finish sending data, either close your command prompt window, or press the keyboard shortcut `CTRL + C`. 
 
+Make sure your Xbox controller is connected and powered on **before** you run `node 3ds`.
+
 ## Configuration
 
 #### Network
