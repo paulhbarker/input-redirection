@@ -35,17 +35,17 @@ node 3ds
 
 **If you're not a developer:**
 
-1. (> 1 min) Download and install the Node.js binary from the [Node.js website](http://nodejs.org). Go with whatever they're calling "LTS" at the time you visit the website. At the time of this writing, LTS is v8.9.4.
+1. (< 1 min) Download and install the Node.js binary from the [Node.js website](http://nodejs.org). Go with whatever they're calling "LTS" at the time you visit the website. At the time of this writing, LTS is v8.9.4.
 
-2. (> 1 min) Open an elevated command prompt (run cmd.exe as an administrator) and type `node -v` followed by enter to verify you've installed node correctly. Make sure the number that appears in the console is greater than v4.4.3.
+2. (< 1 min) Open an elevated command prompt (run cmd.exe as an administrator) and type `node -v` followed by enter to verify you've installed node correctly. Make sure the number that appears in the console is greater than v4.4.3.
 
 3. (4 - 8 min) Issue the following command: `npm install -g --production windows-build-tools` to start the installation process for the Windows Build Tools. This will automatically install Python 2.7 and the Visual Studio Build Tools. This is the most time-consuming step.
 
-4. (> 1 min) Enter the command: `npm install -g node-gyp` to install node-gyp, a cross-platform compiler for native modules.
+4. (< 1 min) Enter the command: `npm install -g node-gyp` to install node-gyp, a cross-platform compiler for native modules.
 
-5. (> 1 min) Download [this package](https://github.com/paulhbarker/input-redirection/archive/master.zip) (or clone with git) and unzip it to a convenient location. If windows tells you it has a virus, worry not, windows defender is a liar liar pants on fire. Whitelist the file or disable the worthless antivirus software.
+5. (< 1 min) Download [this package](https://github.com/paulhbarker/input-redirection/archive/master.zip) (or clone with git) and unzip it to a convenient location. If windows tells you it has a virus, worry not, windows defender is a liar liar pants on fire. Whitelist the file or disable the worthless antivirus software.
 
-6. (1 - 4 min) Go back to your command prompt and navigate to the unzipped folder (should be called input-redirection-master) with the command `cd <location>`. If you're not familiar with the command line and navigation, use [this](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands) as a reference.
+6. (< 1 min) Go back to your command prompt and navigate to the unzipped folder (should be called input-redirection-master) with the command `cd <location>`. If you're not familiar with the command line and navigation, use [this](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands) as a reference.
 
 7. (1 - 2  min) When you're inside the extracted folder, run `npm install`. If this command fails, or you see a lot of lines that begin with `npm ERR!`, make sure you're in the right folder (the folder should have a `package.json` file) and that you've completed all the previous steps.
 
