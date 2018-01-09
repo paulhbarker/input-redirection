@@ -1,0 +1,31 @@
+{
+  "name": "input-redirection",
+  "version": "1.0.0",
+  "description": "Node.js implementation for input redirection on the Nintendo 3DS.",
+  "main": "3ds.js",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build"
+  },
+  "author": "Paul Barker",
+  "license": "MIT",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "nan": "^2.2.0"
+  },
+  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulhbarker/input-redirection.git"
+  },
+  "keywords": [
+    "gamepad",
+    "joystick",
+    "xinput",
+	"3ds"
+  ],
+  "bugs": {
+    "url": "https://github.com/paulhbarker/input-redirection/issues"
+  },
+  "homepage": "https://github.com/paulhbarker/input-redirection"
+}
